@@ -96,7 +96,7 @@ const App = () => {
               <InputMask
                 className='small-input'
                 style={{ border: errors.phoneNumber ? '1px solid red' : '' }}
-                mask='+7 999 99 99'
+                mask='+7 999 999 99 99'
                 placeholder={placeholder.phoneNumber}
                 {...register('phoneNumber', { required: true })}
               />
