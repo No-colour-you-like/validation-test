@@ -1,0 +1,59 @@
+.wrapper 
+  width: 100%
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+.validation__title 
+  margin: 0 
+  margin-bottom: 40px
+  font-size: 28px
+
+.form
+  display: flex
+  flex-direction: column
+  width: 550px
+  &__small-inputs 
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+.submit-btn
+  width: 260px
+  height: 50px
+  margin-left: auto
+  background-color: #4DBA6B
+  border: none
+  border-radius: 3px
+  color: #fff
+  font-size: 20px
+  cursor: pointer
+  box-shadow: 0 5px 15px #969696
+  transition: 0.5s
+  text-transform: uppercase
+  &:hover 
+    box-shadow: 0 5px 25px #969696
+
+.big-input, .small-input
+  width: 550px
+  height: 50px
+  padding: 0 15px
+  margin-bottom: 15px
+  background-color: #F1F1F1
+  border: none
+  border-radius: 5px
+  outline: none
+  font-size: 16px
+  color: #747171
+
+.small-input 
+  width: 260px
+
+.error-text 
+  margin-bottom: 15px
+  font-size: 14px
+  color: #dd3737
+
+.error-input-status 
+  border: 1px solid #dd3737
